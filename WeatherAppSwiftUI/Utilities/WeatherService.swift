@@ -14,7 +14,7 @@ struct WeatherService {
             throw URLError(.badURL)
         }
 
-        let apiKey = "c096070dcec6744728e0dd70c15ede17"
+        let apiKey = "YOUR_API_KEY"
         let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(cityEncoded)&appid=\(apiKey)&units=metric"
         
         guard let url = URL(string: urlString) else {

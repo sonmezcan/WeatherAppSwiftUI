@@ -35,16 +35,6 @@
 			path = WeatherAppSwiftUI;
 			sourceTree = "<group>";
 		};
-		366AFA2B2DB78BFA00B6D23C /* WeatherAppSwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeatherAppSwiftUITests;
-			sourceTree = "<group>";
-		};
-		366AFA352DB78BFA00B6D23C /* WeatherAppSwiftUIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WeatherAppSwiftUIUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				366AFA182DB78BF700B6D23C /* WeatherAppSwiftUI */,
-				366AFA2B2DB78BFA00B6D23C /* WeatherAppSwiftUITests */,
-				366AFA352DB78BFA00B6D23C /* WeatherAppSwiftUIUITests */,
 				366AFA172DB78BF700B6D23C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				366AFA2A2DB78BFA00B6D23C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				366AFA2B2DB78BFA00B6D23C /* WeatherAppSwiftUITests */,
-			);
 			name = WeatherAppSwiftUITests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				366AFA342DB78BFA00B6D23C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				366AFA352DB78BFA00B6D23C /* WeatherAppSwiftUIUITests */,
 			);
 			name = WeatherAppSwiftUIUITests;
 			packageProductDependencies = (
